@@ -2,6 +2,12 @@
 A writer that generate news after a game.
 
 ## Used libraries
-Embedding:
+Word Embedding:
+
     facebookresearch / fastText 
     Embedding / Chinese-Word-Vectors 
+    
+Models:
+
+    tensorflow / nmt 
+    tensorflow / models / research / textsum
