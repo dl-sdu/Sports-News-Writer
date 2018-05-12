@@ -1,5 +1,5 @@
 # Sports-News-Writer
-A writer that generate news after a game.
+A writer that generate news after a game using live texts.
 
 ## Used libraries
 Word Embedding:
