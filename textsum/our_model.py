@@ -159,7 +159,7 @@ class Seq2SeqAttentionModel(object):
         # num_sentences in article
         # So emb_encoder_inputs_2 should be [num_sentences, batch_size, sentence_emb]
         num_sentences = 300 #max
-        num_word_in_sent = 
+        num_word_in_sent = np.load("/home/dell-u/Spyder/textsum/num_sent_num_words_matrix.npy")
         sentence_emb = 300
         gru_size = 200
         
@@ -167,19 +167,24 @@ class Seq2SeqAttentionModel(object):
         gru = tf.contrib.rnn.GRUCell(gru_size)
         #len_sentences is a list includes the index_of_interval of each sentence 
         
-        num_sent = 0
-        for lo, hi in zip([0] + len_sentences[:-1], len_sentences):
-            # Initial state of the LSTM memory.
-            state = tf.zeros([batch_size, gru.state_size])
+        batch_size = emb_encoder_inputs_1.shape[1]
 
-            for i in range(lo, hi):
-                output, state = gru(emb_encoder_inputs_1[i, :, :], state)
-            final_state = state # final_state is sentence_emb[batch_size, sentence_emb]
+        for ib in range(batch_size):            
+            #!!! TODO 
+            len_sentences = num_word_in_sent[0]
+            # for each sentence in sample
+            for lo, hi in zip(np.append([0], len_sentences[:-1]), len_sentences):
+                sent_embs = []
+                # Initial state of the LSTM memory.
+                state = tf.zeros([1, gru.state_size])  
+                for j in range(lo, hi):
+                    output, state = gru(emb_encoder_inputs_1[j, ib, :], state)            
+                final_state = state # final_state is a vector              
+                sent_embs.append(final_state)
+                
+            emb_encoder_inputs_2[:, ib, ] = sent_embs
 
-            emb_encoder_inputs_2[num_sent] = final_state
-            num_sent += 1
         #-----------------------------------------------------------------------
-        
         emb_decoder_inputs = [tf.nn.embedding_lookup(embedding, x)
                               for x in decoder_inputs]
 
