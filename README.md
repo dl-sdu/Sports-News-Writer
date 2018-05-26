@@ -1,7 +1,7 @@
 # Sports-News-Writer
 A writer that can generate news after a game using live texts.
 
-成员：马文琪、陈龙、贺杰、杜林
+成员：贺杰、杜林、马文琪、陈龙
 
 ## Used libraries
 Word Embedding:
