@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>C:/Users/陈龙/Desktop/处理后的图/素材2.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>C:/Users/陈龙/Desktop/处理后的图/we.png</file>
+        <file>C:/Users/陈龙/Desktop/处理后的图/素材6.png</file>
+        <file>C:/Users/陈龙/Desktop/处理后的图/按钮1.png</file>
+        <file>C:/Users/陈龙/Desktop/处理后的图/素材6 - 副本.png</file>
+        <file>C:/Users/陈龙/Desktop/处理后的图/背景11.png</file>
+        <file>C:/Users/陈龙/Desktop/处理后的图/按钮2.png</file>
+        <file>C:/Users/陈龙/Desktop/处理后的图/分类.png</file>
+        <file>C:/Users/陈龙/Desktop/处理后的图/按钮3.png</file>
+        <file>C:/Users/陈龙/Desktop/处理后的图/分类2.png</file>
+        <file>C:/Users/陈龙/Desktop/处理后的图/分类3.png</file>
+        <file>C:/Users/陈龙/Desktop/处理后的图/素材3.png</file>
+        <file>C:/Users/陈龙/Desktop/处理后的图/素材4.png</file>
+    </qresource>
+</RCC>

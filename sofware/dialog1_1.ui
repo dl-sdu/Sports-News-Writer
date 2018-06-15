@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dialog1_1</class>
+ <widget class="QDialog" name="dialog1_1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>653</width>
+    <height>399</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border-image: url(:/C:/Users/陈龙/Desktop/素材/背景.png);</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>70</y>
+     <width>131</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/C:/Users/陈龙/Desktop/处理后的图/按钮1.png);
+color: rgb(163, 163, 163);
+font: 16pt &quot;宋体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Generative</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>70</y>
+     <width>141</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/C:/Users/陈龙/Desktop/处理后的图/按钮1.png);
+color: rgb(163, 163, 163);
+font: 16pt &quot;宋体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>textteaser</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>170</y>
+     <width>121</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/C:/Users/陈龙/Desktop/处理后的图/按钮1.png);
+color: rgb(163, 163, 163);
+font: 16pt &quot;宋体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Textrank</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>170</y>
+     <width>151</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/C:/Users/陈龙/Desktop/处理后的图/按钮1.png);
+color: rgb(163, 163, 163);
+font: 16pt &quot;宋体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>MMR</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>270</y>
+     <width>141</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/C:/Users/陈龙/Desktop/处理后的图/按钮1.png);
+color: rgb(163, 163, 163);
+font: 16pt &quot;宋体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>ILP</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_7">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>280</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/C:/Users/陈龙/Desktop/处理后的图/按钮1.png);
+color: rgb(163, 163, 163);
+font: 16pt &quot;宋体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Lexrank</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

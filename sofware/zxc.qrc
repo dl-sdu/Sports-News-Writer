@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>C:/Users/陈龙/Desktop/处理后的图/背景1.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>C:/Users/陈龙/Desktop/处理后的图/透明.png</file>
+        <file>C:/Users/陈龙/Desktop/处理后的图/新闻生成1.png</file>
+        <file>C:/Users/陈龙/Desktop/素材/球员.png</file>
+        <file>C:/Users/陈龙/Desktop/处理后的图/按钮1.png</file>
+        <file>C:/Users/陈龙/Desktop/素材/背景.png</file>
+        <file>C:/Users/陈龙/Desktop/处理后的图/素材10.png</file>
+        <file>C:/Users/陈龙/Desktop/处理后的图/新闻编辑.png</file>
+        <file>C:/Users/陈龙/Desktop/处理后的图/相关新闻.png</file>
+    </qresource>
+</RCC>
